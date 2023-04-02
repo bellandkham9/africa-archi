@@ -31,21 +31,29 @@
 	</head>
 </head>
 <style>
-    body{
-	background-color: whitesmoke;
-	margin: 1%;
-	padding: 1%;
+    html {
+    height: 100%;
+}
+  body {
+    height: 100%;
+    overflow-y: scroll; 
+    overflow-x: hidden; 
+    background-color: whitesmoke;
+    margin: 1%;
+    padding: 1%;
 }
 </style>
 <body>
     
-    <div class="container " style=" background-color: white; box-shadow: 1px 3px 6px grey; padding: 12px;">
+    <div class="container-fluid " style="width: 100%; height: auto; background-color: white; box-shadow: 1px 3px 6px grey; padding: 12px;">
         <div class="row">
             <div class="col" style="text-align: center; display: flex;">
                     <a style="background-color: transparent;" href="index.html">
                         <img src="assets/img/archi/Up Left_32px.png" alt="">
                     </a>
-                <h3 style="position: relative; left: 40%;">Details</h3>
+                    <div class="text-center container">
+                      <h2 style="font-weight: bolder;">Details</h2>
+                    </div>
             </div>
         </div>
         <div class="row d-flex pt-5">
@@ -94,7 +102,7 @@
 
         </div>
         <div class="row pt-4">
-            <div class="col-4" style="position: relative; left: 35%;">
+            <div class="text-center col-12">
                 <h3>Titre: mmaison jgfgsggqqg</h3>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -103,9 +111,13 @@
             </div>
             
         </div>
-        <div class="row pt-2">
-            <div class="col-10" style="position: relative; left: 10%;">
-                <p style="overflow: scroll; overflow-x: hidden; height: 250px; border: 2px solid whitesmoke;">
+        <div class="text-center container pt-4">
+          <div class="container" style="width: 50px; border-top: 10px dotted #20c997;"></div>
+        </div>
+        <div class=" row pt-2">
+            <div class="col-12">
+                <div class="text-center container">
+                  <p style=" text-align: justify; overflow: scroll; overflow-x: hidden; height: 250px; border: 2px solid whitesmoke;">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                     Tempora sequi voluptatum odit quia itaque officiis provident eos esse incidunt. 
                     Ratione autem mollitia maiores ex tenetur nemo delectus alias, cum reprehenderit Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
@@ -128,16 +140,17 @@
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                     Tempora sequi voluptatum odit quia itaque officiis provident eos esse incidunt. 
                     Ratione autem mollitia maiores ex tenetur nemo delectus alias, cum reprehenderit?
-                </p>       
+                </p>
+                </div>       
             </div>
         </div>
-        <div class="container d-flex pt-4" style="position: relative; left: 35%;">
-            <div style="position: relative; left: 5%; width: 20px; height: 20px; border-radius: 100%; border: 1px solid #20c997;"></div>
-            <div style="position: relative; left: 10%; width: 20px; height: 20px; border-radius: 100%; border: 1px solid #20c997;"></div>
-            <div style="position: relative; left: 15%; width: 20px; height: 20px; border-radius: 100%; border: 1px solid #20c997;"></div>
+
+        <div class="text-center container pt-4">
+          <div class="container" style="width: 50px; border-top: 10px dotted #20c997;"></div>
         </div>
+
         <div class="row pt-4" style=" height: 400px; padding-bottom: 12px;">
-            <div class="container" style="position: relative; left:40%;">
+            <div class="text-center container">
                 <h4>More pictures</h4>
             </div>
             <div class="col-10" style="position: relative; left: 10%; overflow: scroll; height: 300px; overflow-x: hidden;">
@@ -146,7 +159,14 @@
                         <div class="card">
                             <img src="assets/img/archi/house2.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text" style="margin: 0;  overflow: scroll; overflow-x: hidden; height: 100px;">Some quick example text to build ,on the card title and make up the bulk of the card's content, on the card title and make up the bulk of the card's contenton the card title and make up the bulk of the card's content.</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-4 pt-4">
+                        <div class="card">
+                            <img src="assets/img/archi/house2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
                               <p class="card-text" style="overflow: scroll; overflow-x: hidden; height: 100px;">Some quick example text to build ,on the card title and make up the bulk of the card's content, on the card title and make up the bulk of the card's contenton the card title and make up the bulk of the card's content.</p>
                             </div>
                           </div>
@@ -155,16 +175,6 @@
                         <div class="card">
                             <img src="assets/img/archi/house2.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text" style="overflow: scroll; overflow-x: hidden; height: 100px;">Some quick example text to build ,on the card title and make up the bulk of the card's content, on the card title and make up the bulk of the card's contenton the card title and make up the bulk of the card's content.</p>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-4 pt-4">
-                        <div class="card">
-                            <img src="assets/img/archi/house2.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
                               <p class="card-text" style="overflow: scroll; overflow-x: hidden; height: 100px;">Some quick example text to build ,on the card title and make up the bulk of the card's content, on the card title and make up the bulk of the card's contenton the card title and make up the bulk of the card's content.</p>
                             </div>
                           </div>
@@ -175,7 +185,6 @@
                         <div class="card">
                             <img src="assets/img/archi/house2.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
                               <p class="card-text" style="overflow: scroll; overflow-x: hidden; height: 100px;">Some quick example text to build ,on the card title and make up the bulk of the card's content, on the card title and make up the bulk of the card's contenton the card title and make up the bulk of the card's content.</p>
                             </div>
                           </div>
@@ -184,7 +193,6 @@
                         <div class="card">
                             <img src="assets/img/archi/house2.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
                               <p class="card-text" style="overflow: scroll; overflow-x: hidden; height: 100px;">Some quick example text to build ,on the card title and make up the bulk of the card's content, on the card title and make up the bulk of the card's contenton the card title and make up the bulk of the card's content.</p>
                             </div>
                           </div>
@@ -193,7 +201,6 @@
                         <div class="card">
                             <img src="assets/img/archi/house2.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
                               <p class="card-text" style="overflow: scroll; overflow-x: hidden; height: 100px;">Some quick example text to build ,on the card title and make up the bulk of the card's content, on the card title and make up the bulk of the card's contenton the card title and make up the bulk of the card's content.</p>
                             </div>
                           </div>
@@ -206,6 +213,7 @@
         </div>
 
     </div>
+
     <div class="col-12 text-center py-4 text-muted">
         &copy; Africa-Archi
         <script>

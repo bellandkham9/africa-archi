@@ -137,3 +137,31 @@ ul {
 	list-style-type: none;
 }
 
+
+/* pour les card ne seront pus trop élargie */
+@media(max-width: 576px) {
+ 	.card-text{
+		font-size: 9px;
+		text-align: justify;		
+	}
+	
+	.card-title{
+		font-size: 10px;
+	}
+	.btn{
+		width: 100%;
+		height: auto;
+		font-size: 6px;
+	}
+    #slogan{
+		font-size: 32px;
+	}
+	#service{
+		position: relative;
+		padding-top: 15%;
+	}
+	#serciceRow{
+		padding-top: 0%;
+	}
+}
+
